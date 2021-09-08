@@ -1,0 +1,5 @@
+entrar com valor de usuario
+definir quantos ticks ira ocupar
+comparar com umax e criar quantos servidores precisar
+
+criar grupos de ttask e somar até chegar em ttask

@@ -79,7 +79,7 @@ output = []
 ler = open(r"C:\Users\lucianoq\OneDrive\DesafioTopaz\output.txt","w")
 
 for i,servidores in enumerate(servidor):
-    ler.write("{} servidores criados para {} usuarios\n".format(servidores,agruparTotal[i]))
+    ler.write("{} servidores para {} usuarios\n".format(servidores,agruparTotal[i]))
 
 #numero de usuarios que entraram por tick
 ler.write("numero de usuarios que entraram:{}\n".format(ticks))

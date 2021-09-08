@@ -54,7 +54,6 @@ for i in range(3):
         soma += t[0][i]
         agruparTotal.append(soma)
 
-
 #com os usuarios agrupados por ttask, são somados para descobrir quantos usuarios havera em cada tick
 for i,listTick in enumerate(t):
            
@@ -77,7 +76,11 @@ for i,tick in enumerate(agruparTotal):
 resultado = 0
 output = []
   
-ler = open(r"C:\Users\lucianoq\OneDrive\DesafioTopaz\output.txt","w")    
+ler = open(r"C:\Users\lucianoq\OneDrive\DesafioTopaz\output.txt","w")
+
+for i,servidores in enumerate(servidor):
+    ler.write("{} servidores criados para {} usuarios\n".format(servidores,agruparTotal[i]))
+
 #numero de usuarios que entraram por tick
 ler.write("numero de usuarios que entraram:{}\n".format(ticks))
 #posição de quando devera remover os usuarios

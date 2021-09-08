@@ -1,3 +1,12 @@
+1 servidores criados para 1 usuarios
+2 servidores criados para 4 usuarios
+2 servidores criados para 4 usuarios
+3 servidores criados para 5 usuarios
+2 servidores criados para 4 usuarios
+1 servidores criados para 2 usuarios
+1 servidores criados para 2 usuarios
+1 servidores criados para 1 usuarios
+1 servidores criados para 1 usuarios
 numero de usuarios que entraram:[1, 3, 0, 1, 0, 1]
 posição de quando devera remover os usuarios:[5, 6, 7, 8, 9, 10]
 numero de servidores criados por tick:[1, 2, 2, 3, 2, 1, 1, 1, 1]
